@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+:root{
+    --birumuda :rgb(94, 198, 233);
+    --birumuda2 : rgb(84, 185, 219) ;
+}
+
+body{
+    background-color:var(--birumuda);
+    margin: 5% 5% 5% 5%;
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Foto {
+    text-align: justify;
+    font-weight: 700;
+    line-height: 2;
+}
+
+
+.padding{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    min-height: 200px;
+}
+
+.padding .halo {
+    background-color: var(--birumuda2);
+    padding: 5% 5% 5% 5%;
+}
+
+.Pendidikan1 {
+    background-color: var(--birumuda2);
+    padding: 5% 5% 5% 5%;
+}
+
+
+.Pendidikan2 {
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    height: 75%;
+}
+
+.Pendidikan2 th {
+    background-color: var(--birumuda);
+    color: darkblue;
+    text-align: center;
+}
+
+.Pendidikan2 td {
+    font-size: 1.5vw;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1, h2{
+    color: darkblue;
+}
+
+.pengalaman {
+    background-color: var(--birumuda2);
+    padding: 5% 5% 5% 5%;
+}
+
+.prestasi {
+    background-color: var(--birumuda2);
+    padding: 5% 5% 5% 5%;
+}
+
+.skill {
+    background-color: var(--birumuda2);
+    padding: 5% 5% 5% 5%;
+}
+
+.inspirasi {
+    background-color: var(--birumuda2);
+    padding: 5% 5% 5% 5%;
+}
